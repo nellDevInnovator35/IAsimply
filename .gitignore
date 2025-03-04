@@ -1,0 +1,23 @@
+# Ignorer les fichiers de configuration d'environnement
+.env
+
+# Ignorer le répertoire des modules Node.js
+node_modules/
+
+# Ignorer les fichiers de log
+*.log
+
+# Ignorer les fichiers de cache
+.cache/
+
+# Ignorer les fichiers de build
+dist/
+build/
+
+# Ignorer les fichiers de configuration de l'éditeur
+.vscode/
+.idea/
+
+# Ignorer les fichiers de système d'exploitation
+.DS_Store
+Thumbs.db

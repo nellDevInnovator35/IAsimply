@@ -1,0 +1,29 @@
+{
+    "name": "chatgpt-library",
+    "version": "1.0.0",
+    "description": "Une librairie Node.js pour intégrer ChatGPT dans différents projets.",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "files": [
+      "dist",
+      "README.md",
+      "LICENSE"
+    ],
+    "scripts": {
+      "build": "tsc",
+      "test": "node dist/test.js",
+      "start":   "npm run build  && node ./dist/index.js"
+    },
+    "dependencies": {
+      "openai":  "^4.47.0",
+      "dotenv": "^16.0.3"
+    },
+    "devDependencies": {
+      "typescript": "^5.0.0",
+      "@types/node": "^20.0.0"
+    },
+    "peerDependencies": {
+      "openai": "^4.0.0"
+    },
+    "license": "MIT"
+  }
