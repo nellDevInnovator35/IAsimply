@@ -21,3 +21,5 @@ build/
 # Ignorer les fichiers de système d'exploitation
 .DS_Store
 Thumbs.db
+
+.npmrc
